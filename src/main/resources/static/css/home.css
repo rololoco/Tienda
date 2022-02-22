@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 feb. 2022, 11:17:32
+    Author     : RoloPC
+*/
+/*
+box-sizing=ancho
+display= como se muestran los elementos que estan dentro
+
+*/
+
+
+.container{
+    height:100 vh;
+    width: 100%;
+    background-image:url(../images/background.png);
+    background-position:center;
+    background-size: cover; 
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing:border-box;
+    position: relative;
+}
+
+.barnav{
+    height:15 vh;
+    width: 100%;
+    margin:auto;
+    display:flex;
+    align-items:center; 
+}
+
+nav{
+    flex: 1;
+    padding-left:60px;
+    
+    
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:0px 20px;
+
+}
+nav ul li a{
+     text-decoration:none;
+    color:  royalblue;
+}
+.contenido{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.contenido p{
+    font-size: 20px;
+    color:#3498DB ;
+    
+}
+
+.contenido h1{
+    font-size:80px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1B4F72 ;
+}
+
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 60px;
+    margin-right:35px; 
+}
+.hotel{
+    height: 50%;
+    position: absolute;
+    bottom:50px;
+    right:160px;
+}
